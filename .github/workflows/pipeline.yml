@@ -24,3 +24,5 @@ jobs:
       uses: google-github-actions/deploy-appengine@main
       with:
         project_id: ${{ env.GCLOUD_PROJECT_ID }}
+        deliverables: ../../app.yaml
+
