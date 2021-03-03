@@ -1,2 +1,3 @@
+service: springapp
 runtime: custom
 env: flex
